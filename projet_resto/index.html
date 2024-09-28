@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../src/output.css" rel="stylesheet">
+  <script src="../tailwind_3.3.5.js"></script>
+</head>
+<body class="text-gray-300 font-nunitro bg-gray-200">
+
+  <div class="grid  sm:grid-cols-1 md:grid-cols-4   ">
+    <div class="p-4 sm:col-span-1  md:col-span-1 bg-white flex justify-end"> 
+      <!-- entete -->
+      <nav>
+        
+        <div class="flex justify-end my-4">
+          <div class="flex items-center justify-items-center">
+            <div class="bg-primary h-3 w-4"></div>
+            <div class="bg-secondary-100 h-4 w-4"></div>
+            <div class="bg-secondary-200 h-5 w-4"></div>
+          </div>
+          <h1 class=" text-gray-700 text-3xl font-semibold ml-2">
+            <a href="" class="sm:text-primary md:text-black lg:text-red-600 text-gray-500 hover:text-secondary-200">PRINCEFOOD</a> 
+          </h1>
+        </div>
+        <ul class="">
+          <li>
+            <a href="" class="flex justify-end my-4">
+              <span class="hover:text-secondary-200 mr-2 text-lg text-black">Acceuil</span>       
+
+              <svg xmlns="http://www.w3.org/2000/svg"   fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-600 hover:text-secondary-200">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            </a>
+          </li>
+          <li>              
+            <a href="" class="flex justify-end my-4">
+              <span class="mr-2 text-black hover:text-secondary-200">A propos</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-600 hover:text-secondary-200">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
+              </svg>
+            </a>
+
+          </li>
+          <li>
+            <a href="" class="flex justify-end my-4">
+              <span class="mr-2 text-black hover:text-secondary-200">Contact</span>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-600 hover:text-secondary-200">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+      </nav>
+    </div>
+
+    <main class="p-16 sm-col-span-1 md:col-span-3 ">
+        <div class="px-4 flex sm:justify-center md:justify-end justify-center text-blue-600">
+          <a href="" class=" ml-2 rounded-full text-blue-700 border-2 border-blue-500 hover:bg-blue-500 hover:text-white uppercase p-2" >Connexion</a>
+          <a href="" class=" ml-2 rounded-full  border-2 border-blue-500 hover:bg-blue-500 hover:text-white uppercase  p-2" >Inscription</a>
+        </div>
+        <div>
+          <header class="mt-8">
+            <h2 class="text-primary text-5xl  border border-b-2font-semibold ">Recettes</h2>
+            <h3 class="text-2xl font-bold">Pour les pros</h1>
+          </header>
+
+          <div class="">
+            <h4 class="text-secondary-100 text-3xl mb-20 border-b border-gray-500 font-semibold pb-3">Recettes les plus recentes </h4>
+            <!-- les menu ici -->
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 text-center ">
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/bon_foufou.jpeg" class="w-full" alt="bon foufou">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Bon Foufou</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">30:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/bon_foutou.jpeg" class="w-full" alt="bon foutou">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Bon foutou</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">30:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/kabato.jpeg" class="w-full" alt="Kabato">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Kabato</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">30:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/cokie-plantain mur.jpg" class="w-full" alt="Poisson Braise">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Banane Plantain</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">30:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/garba.jpeg" class="w-full" alt="Garba">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Garba</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">30:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/sauce_graine.jpeg" class="w-full" alt="Sauce Graine">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Sauce Graine</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">30:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/placali.jpeg" class="w-full" alt="placali">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">placali</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">30:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/soupe.jpeg" class="w-full" alt="soupe">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Soupe de Poisson</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">30:00 MIN</span>
+                </div>
+              </div>
+
+
+              <!-- fin cards -->
+            </div>
+          </div>
+
+          <div>
+            <h4 class="text-secondary-200 text-3xl mx-8 my-5 border-b border-gray-500 font-semibold pb-3 pt-5">Recettes plus populaire</h4>
+            
+            <!-- carte menu -->
+            <div class="mt-4 mb-6 grid sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/alloco.jpeg" class="w-full" alt="alloco">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Alloco</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">10:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/bhb-beignets-haricot-bouillie.jpg" class="w-full" alt="beignet">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Beignet</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">10:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/Poisson_Braise.jpg" class="w-full" alt="Poisson Braise">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Poisson Braisé</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">10:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/porc-braise.jpg" class="w-full" alt="porc braise">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Porc Braise</span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">10:00 MIN</span>
+                </div>
+              </div>
+              <div class="card transition duration-300 ease-in-out hover:scale-110">
+                <img src="..//src/images/brochette-de-porc-la-chinoise.jpg" class="w-full" alt="brochette">
+                <div class="text-black">
+                  <span class="font-bold text-2xl">Brochette </span>
+                  <span class="block text-lg">Par axou</span>
+                </div>
+                <div class="badge">
+                  <span class="">10:00 MIN</span>
+                </div>
+              </div>
+
+
+        </div>
+        
+        <div class="flex justify-center">
+          <button class="bg-gray-500 text-gray-900 p-3 my-5">Afficher plus</button>
+        </div>
+    </main>
+
+  </div>
+
+</body>
+</html>
